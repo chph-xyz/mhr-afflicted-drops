@@ -1,0 +1,55 @@
+body {
+    background-color: black; /* Set the entire page background to black */
+    color: white; /* Set text color to white */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    overflow-y: scroll; /* Always show vertical scrollbar */
+}
+
+table {
+  width: 55%;
+  border-collapse: collapse;
+  border: 1px solid white; /* White border for the table */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid white; /* White border for table cells */
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 50%;
+  background-color: #333; /* Dark background for input */
+  color: white; /* White text for input */
+  border: 1px solid white; /* White border for input */
+}
+
+.dark-grey {
+  background-color: #333;
+}
+
+.black {
+  background-color: #000;
+}
+
+/* Fixed column widths */
+th, td {
+  width: 150px; /* Set the same width for all columns */
+}
+
+/* Alternatively, set specific widths for each column */
+th:nth-child(1), td:nth-child(1) {
+  width: 200px; /* Material column width */
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 200px; /* Monster column width */
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 250px; /* Level Range column width */
+}

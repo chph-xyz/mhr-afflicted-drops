@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Table Search</title>
+  <style>
+    body {
+      background-color: black; /* Set the entire page background to black */
+      color: white; /* Set text color to white */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid white; /* White border for the table */
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid white; /* White border for table cells */
+    }
+
+    input {
+      margin-bottom: 10px;
+      padding: 5px;
+      width: 50%;
+      background-color: #333; /* Dark background for input */
+      color: white; /* White text for input */
+      border: 1px solid white; /* White border for input */
+    }
+
+    .dark-grey {
+      background-color: #333;
+    }
+
+    .black {
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search Afflicted Drops</h1>
+  <input type="text" id="searchInput" placeholder="Search here..." />
+  <table id="dataTable">
+    <thead>
+      <!-- Column headers will be inserted dynamically -->
+    </thead>
+    <tbody>
+      <!-- Rows will be populated dynamically -->
+    </tbody>
+  </table>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const searchInput = document.getElementById("searchInput");
+      const tableBody = document.querySelector("#dataTable tbody");
+      const tableHeader = document.querySelector("#dataTable thead");
+
+      // Fetch the CSV file and process it manually
+      fetch("afflictedDrops.csv")
+        .then((response) => response.text())
+        .then((csvText) => {
+          const data = parseCSV(csvText); // Convert CSV text to a 2D array
+          populateTable(data); // Populate the table with data
+
+          // Add event listener for the search input
+          searchInput.addEventListener("input", () => {
+            const searchTerm = searchInput.value.toLowerCase();
+            const filteredData = data.filter((row) =>
+              row.some((cell) =>
+                cell.toLowerCase().includes(searchTerm)
+              )
+            );
+            populateTable(filteredData); // Re-populate table with filtered data
+          });
+        });
+
+      // Function to manually parse CSV text into a 2D array
+      function parseCSV(csvText) {
+        return csvText
+          .trim() // Remove extra whitespace
+          .split("\n") // Split rows by newline
+          .map((row) => row.split(",")); // Split cells by commas
+      }
+
+      // Function to populate the table
+      function populateTable(data) {
+        tableBody.innerHTML = ""; // Clear existing rows
+        tableHeader.innerHTML = ""; // Clear existing header
+
+        if (data.length > 0) {
+          // Add headers from the first row
+          const headerRow = document.createElement("tr");
+          data[0].forEach((headerText) => {
+            const headerCell = document.createElement("th");
+            headerCell.textContent = headerText;
+            headerRow.appendChild(headerCell);
+          });
+          tableHeader.appendChild(headerRow);
+
+          // Add data rows with alternating colors
+          data.slice(1).forEach((row, index) => {
+            const tableRow = document.createElement("tr");
+
+            // Alternate row color based on index (even or odd)
+            const rowClass = index % 2 === 0 ? "dark-grey" : "black";
+            tableRow.classList.add(rowClass);
+
+            row.forEach((cell) => {
+              const cellElement = document.createElement("td");
+              cellElement.textContent = cell;
+              tableRow.appendChild(cellElement);
+            });
+            tableBody.appendChild(tableRow);
+          });
+        }
+      }
+    });
+  </script>
+</body>
+</html>

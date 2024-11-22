@@ -1,0 +1,172 @@
+Material Drop,Monster Name,Level Range
+Afflicted Bone,Arzuros,1-30
+Afflicted Bone,Lagombi,1-30
+Afflicted Bone,Volvidon,1-30
+Afflicted Hardbone,Arzuros,31-100
+Afflicted Hardbone,Lagombi,31-100
+Afflicted Hardbone,Volvidon,31-100
+Afflicted Slogbone,Arzuros,101-300
+Afflicted Slogbone,Lagombi,101-300
+Afflicted Slogbone,Volvidon,101-300
+Afflicted Pelt,Great Izuchi,1-30
+Afflicted Pelt,Great Wroggi,1-30
+Afflicted Pelt,Kulu-Ya-Ku,1-30
+Afflicted Pelt,Great Baggi,1-30
+Afflicted Hide+,Great Izuchi,31-100
+Afflicted Hide+,Great Wroggi,31-100
+Afflicted Hide+,Kulu-Ya-Ku,31-100
+Afflicted Hide+,Great Baggi,31-100
+Afflicted Thickhide,Great Izuchi,101-300
+Afflicted Thickhide,Great Wroggi,101-300
+Afflicted Thickhide,Kulu-Ya-Ku,101-300
+Afflicted Thickhide,Great Baggi,101-300
+Afflicted Blood,Tetranadon,11-30
+Afflicted Blood,Bishaten,11-30
+Afflicted Blood,Khezu,11-30
+Afflicted Blood,Daimyo Hermitaur,11-30
+Afflicted Dragon Blood,Tetranadon,31-100
+Afflicted Dragon Blood,Bishaten,31-100
+Afflicted Dragon Blood,Khezu,31-100
+Afflicted Dragon Blood,Daimyo Hermitaur,31-100
+Afflicted Pure Blood,Tetranadon,101-300
+Afflicted Pure Blood,Bishaten,101-300
+Afflicted Pure Blood,Khezu,101-300
+Afflicted Pure Blood,Daimyo Hermitaur,101-300
+Afflicted Monster Bone,Aknosom,11-30
+Afflicted Monster Bone,Royal Ludroth,11-30
+Afflicted Monster Bone,Barroth,11-30
+Afflicted Monster Bone,Basarios,11-30
+Afflicted Monster Hardbone,Aknosom,31-100
+Afflicted Monster Hardbone,Royal Ludroth,31-100
+Afflicted Monster Hardbone,Barroth,31-100
+Afflicted Monster Hardbone,Basarios,31-100
+Afflicted Monster Slogbone,Aknosom,101-300
+Afflicted Monster Slogbone,Royal Ludroth,101-300
+Afflicted Monster Slogbone,Barroth,101-300
+Afflicted Monster Slogbone,Basarios,101-300
+Afflicted Shell,BOBishaten,21-30
+Afflicted Shell,Jyuratodus,21-30
+Afflicted Shell,Shogun Ceanat,21-30
+Afflicted Shell,Somnacanth,21-30
+Afflicted Carapace,BOBishaten,31-100
+Afflicted Carapace,Jyuratodus,31-100
+Afflicted Carapace,Shogun Ceanat,31-100
+Afflicted Carapace,Somnacanth,31-100
+Afflicted Cortex,BOBishaten,101-300
+Afflicted Cortex,Jyuratodus,101-300
+Afflicted Cortex,Shogun Ceanat,101-300
+Afflicted Cortex,Somnacanth,101-300
+Afflicted Scale,Anjanath,21-30
+Afflicted Scale,Pukei-Pukei,21-30
+Afflicted Scale,Rathian,21-30
+Afflicted Scale,Tobi-Kadachi,21-30
+Afflicted Scale+,Anjanath,31-100
+Afflicted Scale+,Pukei-Pukei,31-100
+Afflicted Scale+,Rathian,31-100
+Afflicted Scale+,Tobi-Kadachi,31-100
+Afflicted Shard,Anjanath,101-300
+Afflicted Shard,Pukei-Pukei,101-300
+Afflicted Shard,Rathian,101-300
+Afflicted Shard,Tobi-Kadachi,101-300
+Afflicted Claw,Almudron,31-31
+Afflicted Claw,Aurora Somnac.,31-31
+Afflicted Claw,Goss Harag,31-31
+Afflicted Claw,Rakna-Kadaki,31-31
+Afflicted Claw+,Almudron,31-100
+Afflicted Claw+,Aurora Somnac.,31-100
+Afflicted Claw+,Goss Harag,31-100
+Afflicted Claw+,Rakna-Kadaki,31-100
+Afflicted Hardclaw,Almudron,101-300
+Afflicted Hardclaw,Aurora Somnac.,101-300
+Afflicted Hardclaw,Goss Harag,101-300
+Afflicted Hardclaw,Rakna-Kadaki,101-300
+Afflicted Fang,Nargacuga,31-31
+Afflicted Fang,Garangolm,31-31
+Afflicted Fang,Barioth,31-31
+Afflicted Fang,Magnamalo,31-31
+Afflicted Fang+,Nargacuga,31-100
+Afflicted Fang+,Garangolm,31-100
+Afflicted Fang+,Barioth,31-100
+Afflicted Fang+,Magnamalo,31-100
+Afflicted Hardfang,Nargacuga,101-300
+Afflicted Hardfang,Garangolm,101-300
+Afflicted Hardfang,Barioth,101-300
+Afflicted Hardfang,Magnamalo,101-300
+Afflicted Dire Horn,Diablos,51-100
+Afflicted Dire Horn,Seregios,51-100
+Afflicted Dire Horn,Zinogre,51-100
+Afflicted Dire Horn+,Diablos,101-160
+Afflicted Dire Horn+,Seregios,101-160
+Afflicted Dire Horn+,Zinogre,101-160
+Afflicted Dire Hardhorn,Diablos,161-300
+Afflicted Dire Hardhorn,Seregios,161-300
+Afflicted Dire Hardhorn,Zinogre,161-300
+Afflicted Dire Bone,Tigrex,51-100
+Afflicted Dire Bone,Lunagaron,51-100
+Afflicted Dire Bone,Magma Almudron,51-100
+Afflicted Dire Hardbone,Tigrex,101-160
+Afflicted Dire Hardbone,Lunagaron,101-160
+Afflicted Dire Hardbone,Magma Almudron,101-160
+Afflicted Dire Slogbone,Tigrex,161-300
+Afflicted Dire Slogbone,Lunagaron,161-300
+Afflicted Dire Slogbone,Magma Almudron,161-300
+Afflicted Dire Scale,Rathalos,51-100
+Afflicted Dire Scale,Mizutsune,51-100
+Afflicted Dire Scale,Astalos,51-100
+Afflicted Dire Scale+,Rathalos,101-160
+Afflicted Dire Scale+,Mizutsune,101-160
+Afflicted Dire Scale+,Astalos,101-160
+Afflicted Dire Shard,Rathalos,161-300
+Afflicted Dire Shard,Mizutsune,161-300
+Afflicted Dire Shard,Astalos,161-300
+Afflicted Dire Shell,Espinas,71-110
+Afflicted Dire Shell,Gore Magala,71-110
+Afflicted Dire Shell,Bazelgeuse,71-110
+Afflicted Dire Carapace,Espinas,111-180
+Afflicted Dire Carapace,Gore Magala,111-180
+Afflicted Dire Carapace,Bazelgeuse,111-180
+Afflicted Dire Cortex,Espinas,181-300
+Afflicted Dire Cortex,Gore Magala,181-300
+Afflicted Dire Cortex,Bazelgeuse,181-300
+Afflicted Dire Claw,Rajang,71-110
+Afflicted Dire Claw,Pyre Rakna-Kadaki,71-110
+Afflicted Dire Claw+,Rajang,111-180
+Afflicted Dire Claw+,Pyre Rakna-Kadaki,111-180
+Afflicted Dire Hardclaw,Rajang,181-300
+Afflicted Dire Hardclaw,Pyre Rakna-Kadaki,181-300
+Afflicted Dire Wing,Gold Rathian,91-140
+Afflicted Dire Wing,Silver Rathalos,91-140
+Afflicted Dire Wing+,Gold Rathian,141-200
+Afflicted Dire Wing+,Silver Rathalos,141-200
+Afflicted Dire Fellwing,Gold Rathian,201-300
+Afflicted Dire Fellwing,Silver Rathalos,201-300
+Afflicted Dire Blood,Flaming Espinas,91-140
+Afflicted Dire Blood,Chaotic Gore Magala,91-140
+Afflicted Dire Blood,Seething Bazelgeuse,91-140
+Afflicted Dire Dragon Blood,Flaming Espinas,141-200
+Afflicted Dire Dragon Blood,Chaotic Gore Magala,141-200
+Afflicted Dire Dragon Blood,Seething Bazelgeuse,141-200
+Afflicted Dire Darkblood,Flaming Espinas,201-300
+Afflicted Dire Darkblood,Chaotic Gore Magala,201-300
+Afflicted Dire Darkblood,Seething Bazelgeuse,201-300
+Afflicted Dire Fang,Furious Rajang,91-140
+Afflicted Dire Fang,Scorned Magnamalo,91-140
+Afflicted Dire Fang+,Furious Rajang,141-200
+Afflicted Dire Fang+,Scorned Magnamalo,141-200
+Afflicted Dire Hardfang,Furious Rajang,201-300
+Afflicted Dire Hardfang,Scorned Magnamalo,201-300
+Risen Dragonbone,Risen Chameleos,111-160
+Risen Dragonbone,Risen Kushala,111-160
+Risen Dragonbone,Risen Teostra,111-160
+Risen Dragonbone+,Risen Chameleos,161-220
+Risen Dragonbone+,Risen Kushala,161-220
+Risen Dragonbone+,Risen Teostra,161-220
+Risen Slogbone,Risen Chameleos,221-300
+Risen Slogbone,Risen Kushala,221-300
+Risen Slogbone,Risen Teostra,221-300
+Risen Dragon Blood,Risen Shagaru Magala,131-200
+Risen Dragon Blood,Risen Valstrax,131-200
+Risen Dragon Pureblood,Risen Shagaru Magala,201-240
+Risen Dragon Pureblood,Risen Valstrax,201-240
+Risen Dragon Thickblood,Risen Shagaru Magala,241-300
+Risen Dragon Thickblood,Risen Valstrax,241-300
